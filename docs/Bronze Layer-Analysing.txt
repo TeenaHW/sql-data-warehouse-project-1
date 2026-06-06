@@ -1,0 +1,43 @@
+Analysing - Interview source system experts
+1. Business Context & Ownership
+
+Who owns the data?
+What Business Process it supports?
+System & Data documentation
+Data Model & Data Catalog
+
+2. Architecture & Technology Stack
+
+How is data stored?(SQL Server, Oracle, AWS, Azure, ... )
+| Technology | Meaning              |
+| ---------- | -------------------- |
+| SQL Server | Microsoft Database   |
+| Oracle     | Oracle Database      |
+| MySQL      | Open Source Database |
+| AWS        | Cloud Platform       |
+| Azure      | Microsoft Cloud      |
+
+What are the integration capabilities?(API, Kafka, File Extract, Direct DB, ... )
+
+3. Extract & Load
+
+Incremental vs. Full Loads ?
+Data Scope & Historical Needs
+What is the expected size of the extracts?
+Are there any data volume limitations?
+How to avoid impacting the source system's performance?
+authentication and authorization(tokens, SSH keys, VPN, IP whitelisting. ... )
+
+| Question                            | Why?                         |
+| ----------------------------------- | ---------------------------- |
+| Who owns the data?                  | Know whom to contact         |
+| What business process uses it?      | Understand meaning           |
+| What tables and columns exist?      | Understand structure         |
+| Where is data stored?               | Know how to connect          |
+| How can we access it?               | API, DB, files, Kafka        |
+| Full or Incremental load?           | Decide loading strategy      |
+| How much history is needed?         | Determine scope              |
+| How much data exists?               | Plan storage and performance |
+| Any volume limits?                  | Avoid extraction failures    |
+| How to avoid slowing source system? | Protect production systems   |
+| How do we authenticate?             | Secure access                |

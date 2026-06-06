@@ -1,0 +1,51 @@
+Data Warehouse Project
+
+Project Epics
+
+Requirements Analysis
+Design Data Architecture
+Project Initialization
+Build Bronze Layer
+Build Silver Layer
+Build Gold Layer
+
+DWH tasks
+
+Requirements Analysis
+-analyse & understand the requirement
+
+Design Data Architecture
+-Choose Data Management Approach
+-desing the layers
+-draw the data architecture (draw.io)
+
+Project initialization
+-create detailed project tasks(notion)
+-define project naming conventions
+-create git repo & prepare the repo strucute
+create db & schemas
+
+Build bronze layer
+-Analysing: Source Systems
+-Coding: Data Ingestion
+-Validating: Data Completeness & Schema Checks
+-Document: Draw Data Flow (Draw.io)
+-Commit Code in Git Repo
+
+Build silver layer
+-Analysing: Explore & Understand Data
+-Document: Draw Data Integration (Draw.io)
+-Coding: Data Cleansing
+-Validating: Data Correctness Checks
+-Document: Extend Data Flow (Draw.io)
+-Commit Code in Git Repo
+
+Build gold layer
+-Analysing: Explore Business Objects
+-Coding: Data Integration
+-Validating: Data Integration Checks
+-Document: Draw Data Model of Star Schema (Draw.io)
+-Document: Create Data Catalog
+-Document: Extend Data Flow (Draw.io)
+-Commit Code in Git Repo
+
